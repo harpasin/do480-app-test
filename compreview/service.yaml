@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: hello-do480
+    name: hello-do480
+  name: hello-do480
+  namespace: compreview-app
+spec:
+  ports:
+  - port: 8080
+  selector:
+    name: hello-do480
+---

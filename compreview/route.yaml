@@ -1,0 +1,20 @@
+---
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: hello-do480
+  labels:
+    app: hello-do480
+    name: hello-do480
+  namespace: compreview-app
+spec:
+  host: hello-do480.apps.ocp4.example.com
+  subdomain: ''
+  to:
+    kind: Service
+    name: hello-do480
+    weight: 100
+  port:
+    targetPort: 8080
+  wildcardPolicy: None
+---
