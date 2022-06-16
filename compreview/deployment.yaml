@@ -22,4 +22,6 @@ spec:
       containers:
       - name: hello-do480
         image: quay.io/harpasin/do480-hello:latest
+        livenessProbe:
+          periodSeconds: 5
 ---
