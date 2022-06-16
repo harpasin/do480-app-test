@@ -21,5 +21,5 @@ spec:
     spec:
       containers:
       - name: hello-do480
-        image: central-quay-registry.apps.ocp4.example.com/cloudadmin/hello-app:v1.0
+        image: quay.io/repository/harpasin/do480-hello:v1.0
 ---
