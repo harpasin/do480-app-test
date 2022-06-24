@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: hello-do480
-        image: quay.io/harpasin/do480-hello:latest
+        image: central-quay-registry.apps.ocp4.example.com/cloudadmin/hello-app:latest
         livenessProbe:
           periodSeconds: 60
 ---
