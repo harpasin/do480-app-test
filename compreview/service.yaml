@@ -6,7 +6,7 @@ metadata:
     app: hello-do480
     name: hello-do480
   name: hello-do480
-  namespace: compreview-app
+  namespace: compreview-install
 spec:
   ports:
   - port: 8080
